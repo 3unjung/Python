@@ -12,4 +12,4 @@ for i in range(1, 21) :
         list[j - 1] = i * j
     for indice in range(20) :
         print(list[indice], end = " ")
-    print()
+    print(indice)
