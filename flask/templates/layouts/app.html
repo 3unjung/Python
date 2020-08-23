@@ -11,7 +11,8 @@
 </head>
 <body>
     {% include 'layouts/partials/_header.html' %}
-    {% block body%} {% endblock %}
+
+    <div class="main">{% block body%} {% endblock %}</div>
     {% include 'layouts/partials/_footer.html' %}
 
 
