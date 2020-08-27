@@ -1,3 +1,0 @@
-start /B python manage.py runserver => run le serveur en tâche de background permettant la réécriture sur le
-python manage.py migrate => application une migration
-python manage.py makemigrations => migre les migrations
