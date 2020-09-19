@@ -1,0 +1,31 @@
+{% extends 'layouts/app.jarditou.html' %}
+{% block body %}
+
+<div class="container">
+    <div class="text-center">
+        <h1>Crée un compte</h1>
+        <form action="{{ url_for('index') }}" method="get">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Adresse mail
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </label>
+
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Mot de passe
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </label>
+            </div>
+            <button type="submit" class="btn btn-success">Je m'inscrit !</button>
+        </form>
+        <br>
+        <p class="green">En créant un compte, vous acceptez les <a style="color: black;" href="#">Conditions
+            générales</a> de Jarditou.
+        <p>
+        <p class="green">Veuillez consulter notre Notice Protection de vos Informations Personnelles, notre Notice
+            Cookies et notre Notice Annonces publicitaires basées sur vos centres d’intérêt.</p>
+    </div>
+</div>
+
+
+{% endblock %}
