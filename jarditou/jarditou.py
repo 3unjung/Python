@@ -4,6 +4,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 
 # from forms import RegisterForm
+# efjnioerniofnreiognre
 
 from jarditou import config
 
